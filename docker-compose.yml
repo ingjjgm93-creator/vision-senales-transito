@@ -1,0 +1,24 @@
+# docker compose up --build                      -> pipeline con las 15 imágenes de validación
+# docker compose --profile extra run evaluacion  -> métricas contra las etiquetas YOLO
+# docker compose --profile extra run video       -> modo de tiempo real con el video simulado
+services:
+  pipeline:
+    build: .
+    image: vision-senales-transito:1.0
+    volumes:
+      - ./output:/app/output
+
+  evaluacion:
+    image: vision-senales-transito:1.0
+    profiles: ["extra"]
+    entrypoint: ["python", "src/evaluar.py"]
+    command: ["--salida", "output/evaluacion"]
+    volumes:
+      - ./output:/app/output
+
+  video:
+    image: vision-senales-transito:1.0
+    profiles: ["extra"]
+    command: ["--entrada", "data/video/camara_simulada.mp4", "--salida", "output/video"]
+    volumes:
+      - ./output:/app/output

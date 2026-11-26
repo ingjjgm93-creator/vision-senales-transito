@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>images</folder>
+  <filename>img_val_0007.jpg</filename>
+  <size>
+    <width>640</width>
+    <height>640</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>no_estacionar</name>
+    <bndbox>
+      <xmin>20</xmin>
+      <ymin>28</ymin>
+      <xmax>171</xmax>
+      <ymax>179</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>ceda_el_paso</name>
+    <bndbox>
+      <xmin>434</xmin>
+      <ymin>121</ymin>
+      <xmax>552</xmax>
+      <ymax>239</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>alto</name>
+    <bndbox>
+      <xmin>91</xmin>
+      <ymin>231</ymin>
+      <xmax>208</xmax>
+      <ymax>348</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>images</folder>
+  <filename>img_train_0010.jpg</filename>
+  <size>
+    <width>640</width>
+    <height>640</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>no_estacionar</name>
+    <bndbox>
+      <xmin>55</xmin>
+      <ymin>20</ymin>
+      <xmax>207</xmax>
+      <ymax>172</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>no_estacionar</name>
+    <bndbox>
+      <xmin>446</xmin>
+      <ymin>32</ymin>
+      <xmax>618</xmax>
+      <ymax>204</ymax>
+    </bndbox>
+  </object>
+</annotation>

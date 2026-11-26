@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>images</folder>
+  <filename>img_val_0009.jpg</filename>
+  <size>
+    <width>640</width>
+    <height>640</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>alto</name>
+    <bndbox>
+      <xmin>75</xmin>
+      <ymin>200</ymin>
+      <xmax>243</xmax>
+      <ymax>368</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>alto</name>
+    <bndbox>
+      <xmin>127</xmin>
+      <ymin>6</ymin>
+      <xmax>238</xmax>
+      <ymax>117</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>velocidad</name>
+    <bndbox>
+      <xmin>367</xmin>
+      <ymin>41</ymin>
+      <xmax>459</xmax>
+      <ymax>133</ymax>
+    </bndbox>
+  </object>
+</annotation>

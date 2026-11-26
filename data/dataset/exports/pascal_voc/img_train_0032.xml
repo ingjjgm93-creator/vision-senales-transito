@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>images</folder>
+  <filename>img_train_0032.jpg</filename>
+  <size>
+    <width>640</width>
+    <height>640</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>alto</name>
+    <bndbox>
+      <xmin>489</xmin>
+      <ymin>63</ymin>
+      <xmax>575</xmax>
+      <ymax>149</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>alto</name>
+    <bndbox>
+      <xmin>90</xmin>
+      <ymin>160</ymin>
+      <xmax>219</xmax>
+      <ymax>289</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>alto</name>
+    <bndbox>
+      <xmin>301</xmin>
+      <ymin>11</ymin>
+      <xmax>470</xmax>
+      <ymax>180</ymax>
+    </bndbox>
+  </object>
+</annotation>

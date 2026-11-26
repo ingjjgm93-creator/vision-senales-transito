@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>images</folder>
+  <filename>img_train_0037.jpg</filename>
+  <size>
+    <width>640</width>
+    <height>640</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>ceda_el_paso</name>
+    <bndbox>
+      <xmin>328</xmin>
+      <ymin>66</ymin>
+      <xmax>422</xmax>
+      <ymax>160</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>alto</name>
+    <bndbox>
+      <xmin>226</xmin>
+      <ymin>252</ymin>
+      <xmax>320</xmax>
+      <ymax>346</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>images</folder>
+  <filename>img_val_0011.jpg</filename>
+  <size>
+    <width>640</width>
+    <height>640</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>ceda_el_paso</name>
+    <bndbox>
+      <xmin>352</xmin>
+      <ymin>118</ymin>
+      <xmax>461</xmax>
+      <ymax>227</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>alto</name>
+    <bndbox>
+      <xmin>527</xmin>
+      <ymin>63</ymin>
+      <xmax>606</xmax>
+      <ymax>142</ymax>
+    </bndbox>
+  </object>
+</annotation>

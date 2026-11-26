@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>images</folder>
+  <filename>img_val_0012.jpg</filename>
+  <size>
+    <width>640</width>
+    <height>640</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>alto</name>
+    <bndbox>
+      <xmin>83</xmin>
+      <ymin>199</ymin>
+      <xmax>230</xmax>
+      <ymax>346</ymax>
+    </bndbox>
+  </object>
+</annotation>

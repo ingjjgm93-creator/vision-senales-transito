@@ -1,0 +1,11 @@
+.git
+.gitignore
+output/
+ejemplos/
+scripts/
+**/__pycache__
+**/*.pyc
+*.zip
+*.log
+.venv/
+venv/

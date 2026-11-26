@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>images</folder>
+  <filename>img_train_0019.jpg</filename>
+  <size>
+    <width>640</width>
+    <height>640</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>velocidad</name>
+    <bndbox>
+      <xmin>260</xmin>
+      <ymin>57</ymin>
+      <xmax>356</xmax>
+      <ymax>153</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>velocidad</name>
+    <bndbox>
+      <xmin>388</xmin>
+      <ymin>44</ymin>
+      <xmax>537</xmax>
+      <ymax>193</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>velocidad</name>
+    <bndbox>
+      <xmin>17</xmin>
+      <ymin>50</ymin>
+      <xmax>189</xmax>
+      <ymax>222</ymax>
+    </bndbox>
+  </object>
+</annotation>
